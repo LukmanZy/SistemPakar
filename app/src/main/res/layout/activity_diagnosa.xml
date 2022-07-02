@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/red"
+    android:layout_gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_header_diagnosa">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:elevation="36dp"
+        android:background="@drawable/card_background"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/titan_one"
+            android:text="@string/TitleHome"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:paddingBottom="5dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox1"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox2"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox3"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox4"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox5"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox6"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox7"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox8"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox9"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox10"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox11"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox12"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox13"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox14"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox15"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox16"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox17"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox18"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox19"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox20"
+                    android:checked="false"
+                    app:useMaterialThemeColors="false"
+                    android:button="@drawable/custom_checkbox"/>
+
+                <Button
+                    android:id="@+id/hasilbutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="PROSES DETEKSI PENYAKIT"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

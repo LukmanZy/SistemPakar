@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sistem Pakar</string>
+    <string name="warningDialog">gejala yang dipilih tidak sesuai dengan rule</string>
+    <string name="dialog">Hasil</string>
+    <string name="ok">OK</string>
+    <string name="TitleHome">Diagnosa Gangguan Pencernaan Pada Anak</string>
+    <string name="DscDiag">Hanya menceklis gejala lalu tekan tombol</string>
+    <string name="NameDosen">Dosen mata kuliah : Rizal Rachman</string>
+    <string name="TitleDsc">Aplikasi ini dibuat berdasarkan jurnal yang menggunakan metode forward chaining</string>
+    <string name="TitleDiagnosa">silahkan ceklis yang dirasakan anak anda</string>
+    <string name="MulaiBtn">Mulai Diagnosa</string>
+    <string name="TentangBtn">Tentang Aplikasi</string>
+
+    <string name="checkbox1">Anak meerasa mual</string>
+    <string name="checkbox2">Muntah-muntah</string>
+    <string name="checkbox3">Demam</string>
+    <string name="checkbox4">BAB berair disertai darah</string>
+    <string name="checkbox5">Berat badan Menurun</string>
+    <string name="checkbox6">Kram atau nyeri perut</string>
+    <string name="checkbox7">Perut terasa sakit</string>
+    <string name="checkbox8">Wajah dan tubuh terasa lesu dan lemas</string>
+    <string name="checkbox9">Mulut dan mata kering dari biasanya</string>
+    <string name="checkbox10">Urine anak jauh lebih gelap dari biasanya</string>
+    <string name="checkbox11">Fases keras</string>
+    <string name="checkbox12">Perut terasa kembung</string>
+    <string name="checkbox13">Mengeluarkan fases dengan susah payah</string>
+    <string name="checkbox14">Merasa sakit ketika BAB</string>
+    <string name="checkbox15">Badan kurus dan perut agak buncit</string>
+    <string name="checkbox16">Nafsu makan menurun</string>
+    <string name="checkbox17">Suka batuk</string>
+    <string name="checkbox18">Anak merasakan nyeri pada perut</string>
+    <string name="checkbox19">Selalu merasa haus dan minum dengan lahap</string>
+    <string name="checkbox20">BAB dalam bentuk cair</string>
+
+
+</resources>
